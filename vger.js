@@ -1,9 +1,6 @@
 var options = {
-  host: "api.jombaylocal.com",
+  host: "api.yourdomain.com",
   port: 80,
 };
 
 var nodeVger = require('node-vger')(options);
-
-//var resources = require('./resources');
-
