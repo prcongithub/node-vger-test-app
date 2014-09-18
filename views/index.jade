@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  h2 ********* Candidates *************
+  - for(var i = 0; i < candidates.length; i++) {
+      p #{candidates[i].name}
+  - }  
+  
+  h2 ************* Companies ****************
+  - for(var i = 0; i < companies.length; i++) {
+      p #{companies[i].name}
+  - }
