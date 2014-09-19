@@ -9,7 +9,6 @@
     "express": "3.4.2",
     "jade": "*",
     "node-vger": "git://github.com/prcongithub/node-vger.git#916f2fdf46901e55ed09e1bcc33395e3b3625c65",
-    "underscore": "1.5.2",
-    "extend": "*"
+    "underscore": "1.5.2"
   }
 }
